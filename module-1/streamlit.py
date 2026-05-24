@@ -3,7 +3,7 @@ import streamlit as st
 import altair as alt
 from snowflake.snowpark.context import get_active_session
 
-# Get the current credentials
+# Get the current credentials#
 session = get_active_session()
 
 # Create references to the tables
